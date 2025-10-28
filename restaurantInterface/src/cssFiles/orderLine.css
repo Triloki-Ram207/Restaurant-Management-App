@@ -1,0 +1,15 @@
+
+.order-line-wrapper{
+  width: 100%;
+  min-height:100vh;
+}
+
+.order-line-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 25px;
+  padding: 24px;
+  min-height:72vh;
+}

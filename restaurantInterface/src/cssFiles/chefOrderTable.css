@@ -1,0 +1,38 @@
+.chef-order-table {
+  width: 100%;
+  max-width: 90%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  padding: 10px;
+  font-size: 13px;
+  color: #222;
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}

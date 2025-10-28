@@ -1,0 +1,29 @@
+# Node modules (if any root-level packages)
+node_modules/
+
+# Environment files (root + nested)
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Ignore nested folders if needed
+restaurant_backend/node_modules/
+restaurantInterface/node_modules/
+userIntercface/node_modules/
+

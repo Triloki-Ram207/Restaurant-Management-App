@@ -1,0 +1,38 @@
+
+.analysis-container {
+  border-radius: 25px;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  /* margin-top: 50px; */
+}
+
+
+.restro-data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+    font-size: 25px;
+    margin-bottom: 16px;
+    font-weight: 600;
+
+}
+
+.visual-data{
+  display: flex;
+  gap:10px;
+  width: 100%;
+  justify-content: space-around
+}
+
+.dimmed {
+  opacity: 0.4;
+  filter: grayscale(60%);
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}

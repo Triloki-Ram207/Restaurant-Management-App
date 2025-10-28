@@ -1,0 +1,50 @@
+.category-menu-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.category-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+
+.category-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.category-btn {
+  flex: 0 0 auto;
+  background: #eee;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.category-btn.selected {
+  background: #000;
+  color: #fff;
+}
+
+.scroll-arrow {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #333;
+}
+
+.scroll-arrow.left {
+  margin-right: 0.5rem;
+}
+
+.scroll-arrow.right {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,131 @@
+.order-card {
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 12px;
+  width: 260px;
+  height:fit-content;
+  color: #222020;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-card.orange { background-color: #FFE3BC; }
+.order-card.green { background-color: #B9F8C9; }
+.order-card.blue { background-color: #C2D4D9; }
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.order-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.order-header span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.order-meta {
+  font-size: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  /* border:2px solid red; */
+  border-radius: 8px;
+  background-color: aliceblue;
+  padding: 6px;
+}
+
+.time-and-type{
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(245, 242, 242, 0.829);
+  /* border:2px solid red; */
+
+}
+
+.time-and-type.orange { background-color: #FFE3BC; }
+.time-and-type.green { background-color: #B9F8C9; }
+.time-and-type.blue { background-color: #C2D4D9; }
+
+.order-meta p {
+  margin: 4px 0;
+}
+
+.status-badge {
+  margin:auto;
+   width: fit-content;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 8px;
+  padding: 5px;
+}
+.sub-status{
+  color:black;
+}
+.order-items {
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgba(240, 248, 255, 0.966);
+  padding: 6px;
+}
+
+.order-items p {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.item-block {
+  margin-bottom: 8px;
+}
+
+.item-block p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.item-block ul {
+  margin: 4px 0 0 16px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.item-block li {
+  margin-bottom: 2px;
+}
+
+.sub-status.dine-done {
+  color: #0B8B2D;
+}
+.sub-status.takeaway-done {
+  color: #2C3E50;
+}
+.sub-status.ongoing {
+  color: #B85C00;
+}
+.sub-status.default {
+  color: #555;
+}
+
+.total-items{
+  font-size: 15px;
+  font-weight: 600;
+}

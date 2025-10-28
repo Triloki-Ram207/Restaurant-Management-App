@@ -1,0 +1,147 @@
+.order-summary {
+  padding: 0 8px;
+  font-family: 'Segoe UI', sans-serif;
+  width: 360px;
+  height:360px;
+  background-color: aliceblue;
+  border-radius:10px ;
+  /* border:2px solid blue; */
+
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'sans-serif';
+  color: #333;
+}
+
+.order-id {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+.order-filter {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+
+.order-stat {
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 14px; */
+}
+
+.visual-stats{
+  display: flex;
+  /* border:2px solid blue; */
+
+}
+.order-stats {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border:2px solid red; */
+  /* margin-bottom: 14px; */
+
+}
+
+.stat-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 8px; */
+
+}
+
+.label {
+  width: 100px;
+  font-size: 14px;
+}
+
+.label .count {
+  font-weight: normal;
+  font-size: 12px;
+  color: #888;
+  margin-left: 4px;
+}
+
+.bar {
+  flex: 1;
+  height: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin: 0 8px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 4px;
+
+}
+
+.percent {
+  width: 30px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.stat-box {
+  background-color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.donut-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circular-chart {
+  transform: rotate(-90deg);
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  stroke-linecap: round;
+  fill: none;
+}
+
+.circle.served {
+  stroke: #43aa8b;
+}
+
+.circle.dine-in {
+  stroke: #577590;
+}
+
+.circle.take-away {
+  stroke: #ac1214;
+}
+
+.dimmed {
+  opacity: 0.4;
+  filter: grayscale(60%);
+  pointer-events: none;
+}

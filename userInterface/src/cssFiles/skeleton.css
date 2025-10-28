@@ -1,0 +1,24 @@
+/* Skeleton.css */
+.skeleton {
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.skeleton-category {
+  width: 80px;
+  height: 60px;
+  margin: 0 8px;
+}
+
+.skeleton-card {
+  width: 160px;
+  height: 200px;
+  margin: 12px;
+}

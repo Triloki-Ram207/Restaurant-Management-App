@@ -1,0 +1,83 @@
+.revenue-dashboard {
+  padding: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  width: 360px;
+  height:360px;
+  padding-bottom: 10px;
+
+
+  /* margin: auto; */
+  background-color: #f0f8ff; /* aliceblue */
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  /* border:2px solid red; */
+  /* border:2px solid red; */
+
+}
+
+.revenue-title {
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-bottom: 16px; */
+  color: #333;
+}
+
+.revenue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.revenue-id {
+  font-size: 12px;
+  color: #666;
+  word-break: break-word;
+}
+
+.revenue-filter {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.revenue-chart-container {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.revenue-tooltip {
+  font-size: 12px;
+  color: #333;
+}
+
+.revenue-axis text {
+  font-size: 12px;
+  fill: #555;
+}
+
+.revenue-line {
+  stroke: #577590;
+  stroke-width: 3;
+}
+
+.revenue-dot {
+  r: 4;
+}
+
+.revenue-active-dot {
+  r: 6;
+}
+
+.dimmed {
+  opacity: 0.4;
+  filter: grayscale(60%);
+  pointer-events: none;
+}

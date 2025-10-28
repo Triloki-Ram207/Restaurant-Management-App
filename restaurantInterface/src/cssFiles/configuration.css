@@ -1,0 +1,8 @@
+.configuration-container {
+  border-radius: 25px;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
