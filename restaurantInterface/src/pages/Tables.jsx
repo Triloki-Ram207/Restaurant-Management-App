@@ -12,7 +12,7 @@ const TableManager = ({ tables, setTables }) => {
   const [tableName, setTableName] = useState('');
   const [chairCount, setChairCount] = useState('4');
   const [loading, setLoading] = useState(true);
-const backendURL = import.meta.env.VITE_BACKEND_URL;
+  const backendURL = import.meta.env.VITE_BACKEND_URL;
 
 
   const fetchTables = async () => {

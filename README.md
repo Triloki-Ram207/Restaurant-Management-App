@@ -93,3 +93,9 @@ Each menu item includes:
   "category": "",
   "stock": ""
 }
+
+Hosted link:
+
+UserInterface:https://restaurant-management-app-mxlu.vercel.app/
+RestaurantInterface:https://restaurant-management-app-pi.vercel.app/
+Restraunt_backend:https://restaurant-management-app-8x08.onrender.com
