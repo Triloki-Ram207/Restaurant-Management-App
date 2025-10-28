@@ -13,8 +13,8 @@ import "../cssFiles/home.css";
 import "../cssFiles/skeleton.css";
 import { fetchMenuCategories } from "../dataManagement/menuSlice";
 
-const Home = () => {
-  const [showForm, setShowForm] = useState(true);
+const Home = ({value}) => {
+  const [showForm, setShowForm] = useState(value);
   const [selectedCategory, setSelectedCategory] = useState("pizza");
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
